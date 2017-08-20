@@ -31,8 +31,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="events\basics\app.js" />
+    <Compile Include="events\basics\emitter.js" />
+    <Compile Include="events\use_lib\app.js" />
+    <Compile Include="events\use_lib\config.js" />
+    <Compile Include="functions.js" />
+    <Compile Include="modules\core_modules\app.js" />
+    <Compile Include="modules\greet_modules\app.js" />
+    <Compile Include="modules\greet_modules\english.js" />
+    <Compile Include="modules\greet_modules\index.js" />
+    <Compile Include="modules\greet_modules\spanish.js" />
+    <Compile Include="modules\basic_module\module1.js" />
+    <Compile Include="modules\basic_module\module2.js" />
+    <Compile Include="modules\patterns\app.js" />
+    <Compile Include="modules\patterns\greet1.js" />
+    <Compile Include="modules\patterns\greet2.js" />
+    <Compile Include="modules\patterns\greet3.js" />
+    <Compile Include="modules\patterns\greet4.js" />
+    <Compile Include="modules\patterns\greet5.js" />
+    <Compile Include="Objects.js" />
+    <Content Include="modules\greet_modules\greetings.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="events\basics\" />
+    <Folder Include="events\use_lib\" />
+    <Folder Include="modules\greet_modules\" />
+    <Folder Include="modules\" />
+    <Folder Include="modules\basic_module\" />
+    <Folder Include="modules\core_modules\" />
+    <Folder Include="modules\patterns\" />
+    <Folder Include="events\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
